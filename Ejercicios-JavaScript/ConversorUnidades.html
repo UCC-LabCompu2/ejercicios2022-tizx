@@ -11,9 +11,9 @@
 
 <div class="centrado div-conver">
     <h1>Conversor de Unidades</h1>
-    <form>
+    <form name="lasUnidades">
         <p>
-            <label for="metro"> Metro</label> = <input id="metro" type="text" name="unid_metro">
+            <label for="metro"> Metro</label> = <input id="metro" type="text" name="unid_metro" onchange="cambiarUnidades(this.id, this.value)">
         </p>
         <p>
             <label for="pulgada"> Pulgada</label> = <input id="pulgada" type="text" name="unid_pulgada">
